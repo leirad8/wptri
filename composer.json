@@ -1,0 +1,11 @@
+{
+	"description": "test project",
+	"name": "WP TRI",
+	"type": "project",
+	"homepage": "",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"require-dev": { }
+}
