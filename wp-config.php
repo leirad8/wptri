@@ -20,10 +20,10 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = 'wp-tri-dev-mysqldbserver';
+$connectstr_dbhost = 'wp-tri-dev-mysqldbserver.mysql.database.azure.com';
 $connectstr_dbname = 'wptridev';
 $connectstr_dbusername = 'mysqldbuser';
-$connectstr_dbpassword = 'az!qwe123';
+$connectstr_dbpassword = 'aDneht789!e';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
