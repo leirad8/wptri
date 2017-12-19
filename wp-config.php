@@ -13,14 +13,18 @@
  *
  * @package WordPress
  */
-// Support multiple environments 
+// Support multiple environments
 // set the config file based on current environment
-if (strpos($_SERVER['HTTP_HOST'],'localhost') !== false) { // local development 
+if (strpos($_SERVER['HTTP_HOST'],'localhost') !== false) { // local development
     $config_file = 'config/wp-config.local.php';
 }
 elseif  ((strpos(getenv('WP_ENV'),'stage') !== false) ||  (strpos(getenv('WP_ENV'),'prod' )!== false )){
     $config_file = 'config/wp-config.azure.php';
-} 
+} else {
+  die('WP_ENV not set');
+}
+echo(DB_HOST)
+die();
 
 
 $path = dirname(__FILE__) . '/';
@@ -47,11 +51,11 @@ define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
-//dynamically change url per environment 
+//dynamically change url per environment
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
 define('WP_CONTENT_URL', '/wp-content');
-define('DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST']); 
+define('DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST']);
 
 
 /** Absolute path to the WordPress directory. */
