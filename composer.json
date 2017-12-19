@@ -2,7 +2,7 @@
 	"description": "test project",
 	"name": "WP TRI",
 	"type": "project",
-	"homepage": "",
+	"homepage": "https://wp-tri-dev-staging.azurewebsites.net/",
 	"license": "MIT",
 	"require": {
 		"php": ">=5.2.4"
