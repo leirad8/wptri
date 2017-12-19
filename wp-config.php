@@ -20,7 +20,7 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = 'wp-tri-dev-mysqldbserver.mysql.database.azure.com';
+$connectstr_dbhost = 'wp-tri-dev-mysqldbserver';
 $connectstr_dbname = 'wptridev';
 $connectstr_dbusername = 'mysqldbuser';
 $connectstr_dbpassword = 'aDneht789!e';
