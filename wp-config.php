@@ -15,6 +15,7 @@
  */
 // Support multiple environments
 // set the config file based on current environment
+
 if (strpos($_SERVER['HTTP_HOST'],'localhost') !== false) { // local development
     $config_file = 'config/wp-config.local.php';
 }
@@ -23,8 +24,6 @@ elseif  ((strpos(getenv('WP_ENV'),'stage') !== false) ||  (strpos(getenv('WP_ENV
 } else {
   die('WP_ENV not set');
 }
-echo(DB_HOST)
-die();
 
 
 $path = dirname(__FILE__) . '/';
@@ -38,7 +37,7 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-
+echo 'host:'.DB_HOST;
 
 /**
  * For developers: WordPress debugging mode.
