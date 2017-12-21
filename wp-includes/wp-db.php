@@ -565,6 +565,12 @@ class wpdb {
 	 * @param string $dbhost     MySQL database host
 	 */
 	public function __construct( $dbuser, $dbpassword, $dbname, $dbhost ) {
+		echo $dbuser;
+		echo ('<br/>attempt to connect...<br/>');
+		$con=mysqli_init();
+		mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL);
+		mysqli_real_connect($con, "wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com", "mysqldbuser@wp-tri-dev-stage-mysqldbserver", "aDneht789!e", "wptridev", 3306);
+		die('conn to db');
 		register_shutdown_function( array( $this, '__destruct' ) );
 
 		if ( WP_DEBUG && WP_DEBUG_DISPLAY )
@@ -1581,7 +1587,7 @@ class wpdb {
 				die();
 			}
 
-			$message = '<h1>' . __( 'Error establishing a database connection3' ) . "</h1>\n";
+			$message = '<h1>' . __( 'Error establishing a database connection' ) . "</h1>\n";
 
 			$message .= '<p>' . sprintf(
 				/* translators: 1: wp-config.php. 2: database host */
