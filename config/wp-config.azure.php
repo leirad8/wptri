@@ -14,7 +14,7 @@ define('DB_HOST', getenv('DBHOSTNAME'));
 echo('DB_HOST:'.DB_HOST);
 echo('<br/>DB_NAME:'.DB_NAME);
 echo('<br/>DB_USER:'.DB_USER);
-echo('<br/>DB_PASSWORD:'.DB_USER);
+echo('<br/>DB_PASSWORD:'.DB_PASSWORD);
 
 /**
  * For developers: WordPress debugging mode.
