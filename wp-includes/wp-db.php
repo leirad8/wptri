@@ -566,11 +566,16 @@ class wpdb {
 	 */
 	public function __construct( $dbuser, $dbpassword, $dbname, $dbhost ) {
 		echo $dbuser;
-		echo ('<br/>attempt to connect...<br/>');
 		$con=mysqli_init();
-		mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL);
-		mysqli_real_connect($con, "wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com", "mysqldbuser@wp-tri-dev-stage-mysqldbserver", "aDneht789!e", "wptridev", 3306);
-		die('conn to db');
+		//mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL);
+		//mysqli_real_connect($con, "wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com", "mysqldbuser@wp-tri-dev-stage-mysqldbserver", "aDneht789!e", "wptridev", 3306);
+
+		if ( !mysqli_real_connect($con, "wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com", "mysqldbuser@wp-tri-dev-stage-mysqldbserver", "aDneht789!e", "wptridev", 3306) ) {
+			die('Connect Error (' . mysqli_connect_errno() . ') ' . mysqli_connect_error());
+		} else {
+			die('success!');
+		}
+
 		register_shutdown_function( array( $this, '__destruct' ) );
 
 		if ( WP_DEBUG && WP_DEBUG_DISPLAY )
