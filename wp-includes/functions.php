@@ -3774,7 +3774,8 @@ function dead_db() {
 
 </head>
 <body>
-	<h1><?php _e( 'Error establishing a database connectionx' ); ?></h1>
+	<?php $wpdb->error ?>
+	<h1><?php _e( 'Error establishing a database connection' ); ?></h1>
 </body>
 </html>
 <?php
