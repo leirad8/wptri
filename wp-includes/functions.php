@@ -3770,6 +3770,7 @@ function dead_db() {
 
 
 ?>
+<? phpinfo(); die();?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"<?php if ( is_rtl() ) echo ' dir="rtl"'; ?>>
 <head>
@@ -3779,8 +3780,9 @@ function dead_db() {
 </head>
 <body>
 
-	start testing:
+	php info loaded testing:
 	<?php
+
 		$link = mysql_connect('wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com', 'mysqldbuser@wp-tri-dev-stage-mysqldbserver', 'aDneht789!e');
 		if (!$link) {
 		die('Could not connect: ' . mysql_error());
