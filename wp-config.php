@@ -44,7 +44,7 @@ define('DB_COLLATE', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 define('FORCE_SSL_ADMIN', true);
 
 /* That's all, stop editing! Happy blogging. */

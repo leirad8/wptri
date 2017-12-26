@@ -3779,7 +3779,7 @@ function dead_db() {
 </head>
 <body>
 
-	testing:
+	start testing:
 	<?php
 		$link = mysql_connect('wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com', 'mysqldbuser@wp-tri-dev-stage-mysqldbserver', 'aDneht789!e');
 		if (!$link) {
@@ -3788,6 +3788,7 @@ function dead_db() {
 		echo 'Connected successfully';
 		mysql_close($link);
 	?>
+	end testing
 	<?php $wpdb->error ?>
 	<h1><?php _e( 'Error establishing a database connectionY' ); echo('xxx'.$wpdb->error); ?></h1>
 </body>
