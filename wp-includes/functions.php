@@ -3765,12 +3765,7 @@ function dead_db() {
 	status_header( 500 );
 	nocache_headers();
 	header( 'Content-Type: text/html; charset=utf-8' );
-
-
-
-
 ?>
-<? phpinfo(); die();?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"<?php if ( is_rtl() ) echo ' dir="rtl"'; ?>>
 <head>
@@ -3779,20 +3774,7 @@ function dead_db() {
 
 </head>
 <body>
-
-	php info loaded testing:
-	<?php
-
-		$link = mysql_connect('wp-tri-dev-stage-mysqldbserver.mysql.database.azure.com', 'mysqldbuser@wp-tri-dev-stage-mysqldbserver', 'aDneht789!e');
-		if (!$link) {
-		die('Could not connect: ' . mysql_error());
-		}
-		echo 'Connected successfully';
-		mysql_close($link);
-	?>
-	end testing
-	<?php $wpdb->error ?>
-	<h1><?php _e( 'Error establishing a database connectionY' ); echo('xxx'.$wpdb->error); ?></h1>
+	<h1><?php _e( 'Error establishing a database connection' ); ?></h1>
 </body>
 </html>
 <?php
