@@ -1524,6 +1524,7 @@ class wpdb {
 		$client_flags = defined( 'MYSQL_CLIENT_FLAGS' ) ? MYSQL_CLIENT_FLAGS : 0;
 
 		if ( $this->use_mysqli ) {
+			echo('mysqli');
 			$this->dbh = mysqli_init();
 
 			$host    = $this->dbhost;
@@ -1576,6 +1577,7 @@ class wpdb {
 				}
 			}
 		} else {
+			echo('mysql');
 			if ( WP_DEBUG ) {
 				$this->dbh = mysql_connect( $this->dbhost, $this->dbuser, $this->dbpassword, $new_link, $client_flags );
 			} else {
