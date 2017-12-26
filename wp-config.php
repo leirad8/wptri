@@ -45,12 +45,13 @@ define('DB_COLLATE', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('FORCE_SSL_ADMIN', true);
 
 /* That's all, stop editing! Happy blogging. */
 
 //dynamically change url per environment
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
 define('WP_CONTENT_URL', '/wp-content');
 define('DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST']);
 
