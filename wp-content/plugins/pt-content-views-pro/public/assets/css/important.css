@@ -1,0 +1,6 @@
+/**
+ * These CSS will fix issue with Divi theme/builder (or similar plugin/them which damaged View output)
+ */
+.pt-cv-filter-bar + .pt-cv-view .pt-cv-content-item, .pt-cv-pinterest .pt-cv-content-item {
+	position: absolute !important;
+}
