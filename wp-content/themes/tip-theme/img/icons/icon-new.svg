@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-68.000000, -339.000000)">
+            <g id="Group-8" transform="translate(68.000000, 339.000000)">
+                <g id="Greenfield-Copy" fill-rule="nonzero" fill="#39ABB8">
+                    <circle id="Oval" cx="24" cy="24" r="24"></circle>
+                </g>
+                <path d="M15.891,29.1 L15.891,20 L14.383,20 L14.383,26.539 L9.508,20 L8,20 L8,29.1 L9.534,29.1 L9.534,22.574 L14.383,29.1 L15.891,29.1 Z M24.796,21.378 L24.796,20 L18.296,20 L18.296,29.1 L24.952,29.1 L24.952,27.722 L19.83,27.722 L19.83,25.213 L24.276,25.213 L24.276,23.835 L19.83,23.835 L19.83,21.378 L24.796,21.378 Z M36.184,29.1 L39.226,20 L37.64,20 L35.443,27.397 L33.233,20 L31.725,20.013 L29.528,27.397 L27.318,20 L25.667,20 L28.683,29.1 L30.269,29.1 L32.453,22.002 L34.611,29.1 L36.184,29.1 Z" id="New" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

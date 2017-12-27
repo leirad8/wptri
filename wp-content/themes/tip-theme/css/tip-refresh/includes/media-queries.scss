@@ -1,0 +1,81 @@
+/*
+* Matching TIP Theme
+*/
+$breakXS: 1px;
+$breakSM: 623px;
+$breakMD: 769px;
+$breakLG: 920px;
+
+@mixin breakXS {
+  @media (min-width: #{$breakXS}) and (max-width: #{$breakSM - 1px}) {
+    @content;
+  }
+}
+
+@mixin breakSM {
+  @media (min-width: #{$breakSM}) and (max-width: #{$breakMD - 1px}) {
+    @content;
+  }
+}
+
+@mixin breakSMMax {
+  @media (max-width: #{$breakMD}) {
+    @content;
+  }
+}
+
+@mixin breakMD {
+  @media (min-width: #{$breakMD}) and (max-width: #{$breakLG - 1px}) {
+    @content;
+  }
+}
+
+@mixin breakLG {
+  @media (min-width: #{$breakLG}) {
+    @content;
+  }
+}
+
+/*
+* Matching Flexbox Grid
+*/
+$breakFlexXS: 1em;
+$breakFlexSM: 48em;
+$breakFlexMD: 64em;
+$breakFlexLG: 75em;
+
+@mixin breakFlexXS {
+  @media (min-width: #{$breakFlexXS}) and (max-width: #{$breakFlexSM}) {
+    @content;
+  }
+}
+
+@mixin breakFlexSM {
+  @media (min-width: #{$breakFlexSM}) and (max-width: #{$breakFlexMD}) {
+    @content;
+  }
+}
+
+@mixin breakFlexSMMax {
+  @media (max-width: #{$breakFlexMD}) {
+    @content;
+  }
+}
+
+@mixin breakFlexMD {
+  @media (min-width: #{$breakFlexMD}) and (max-width: #{$breakFlexLG}) {
+    @content;
+  }
+}
+
+@mixin breakFlexMDMax {
+  @media (max-width: #{$breakFlexLG}) {
+    @content;
+  }
+}
+
+@mixin breakFlexLG {
+  @media (min-width: #{$breakFlexLG}) {
+    @content;
+  }
+}

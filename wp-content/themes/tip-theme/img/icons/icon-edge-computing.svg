@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="$large-1140-Projects" transform="translate(-77.000000, -1211.000000)">
+            <g id="Edge" transform="translate(77.000000, 1211.000000)">
+                <g id="Group-2">
+                    <circle id="Oval" fill="#ECECEC" cx="24" cy="24" r="24"></circle>
+                    <g id="ic_home" transform="translate(14.000000, 16.000000)" stroke-linecap="round" stroke="#7B7B7B" stroke-width="2" stroke-linejoin="round">
+                        <g id="home" transform="translate(-1.000000, -1.000000)">
+                            <polygon id="Rectangle-6" points="2.70175439 0 18.9122807 0 21.6140351 5.40350877 0 5.40350877"></polygon>
+                            <rect id="Rectangle" x="2.70175439" y="5.40350877" width="16.2105263" height="12.1578947"></rect>
+                            <rect id="Rectangle-2" x="8.10526316" y="10.8070175" width="5.40350877" height="6.75438596"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

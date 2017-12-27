@@ -1,0 +1,281 @@
+// for hompeage
+// .widget.mailchimp-signup-form,
+// article.widget.mailchimp-signup-form {
+//   display: none !important;
+// }
+.widget.mailchimp-signup-form {
+  //display: none !important;
+
+  background-color: #3aaab7;
+  color: #fff;
+  margin: 50px 0 0;
+  padding: 50px 75px;
+
+  // left col
+  .left {
+    //border: solid blue 1px;
+    padding: 20px 30px 50px;
+
+    // left - image
+    .wpb_single_image.vc_align_left {
+      width: 30%;
+      float: left;
+      @include breakXS() {
+        //border: solid red 1px;
+        margin-bottom: 20px;
+        float: none;
+        width: 100%;
+      }
+      @include breakSM() {
+        float: none;
+        width: 100%;
+      }
+      .vc_figure {
+        @include breakXS() {
+          display: block;
+        }
+        @include breakSM() {
+          display: block;
+        }
+      }
+
+      img {
+        width: 80%;
+        margin: 30px 10px 0 0;
+        @include breakXS() {
+          margin: 0 auto 50px;
+        }
+        @include breakSM() {
+          margin: 0 auto 50px;
+        }
+      }
+    }
+
+    // right - text
+    .wpb_raw_code.wpb_raw_html {
+      .wpb_wrapper {
+        width: 70%;
+        text-align: left;
+        float: left;
+        @media (max-width: 610px) and (min-width: 0) {
+          float: none;
+          width: 100%;
+        }
+        a {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+
+  // right col - mailchimp
+  .right {
+    //border: solid red 1px;
+    .wpb_wrapper {
+      text-align: left;
+      h2 {
+        margin-top: 5px;
+        @include breakSMMax() {
+          margin-top: 0px;
+        }
+      }
+      a {
+        color: #fff;
+      }
+    }
+
+  }
+
+  .image,
+  img {
+    padding: 0;
+    display: block;
+    width: 100px;
+  }
+
+  .text {
+    padding: 0 20px;
+    @include breakFlexXS() {
+      padding: 40px 20px;
+    }
+  }
+
+  .email-input {
+    width: 60%;
+    float: left;
+    max-width: 350px;
+    @include breakSMMax() {
+      width: 90%;
+      float: none;
+      max-width: 90%;
+    }
+  }
+  .submit-btn {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 20px 5px;
+    @include breakSMMax() {
+      margin-top: 20px;
+      width: 90%;
+      float: none;
+      max-width: 90%;
+    }
+    .button-wrapper {
+      margin: 0 0 0 10px;
+      max-width: 150px;
+      @include breakSMMax() {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+      }
+      input[type='submit'] {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .button-wrapper {
+    margin: 15px 0 0;
+    text-align: left;
+    width: 100%;
+    input {
+      width: 100%;
+    }
+  }
+
+  // mailchimp msgs
+  .mc4wp-response p,
+  .mc4wp-response .mc4wp-alert p {
+    font-weight: 600;
+    padding-top: 15px;
+  }
+
+  &.neutral-theme {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(65, 65, 65);
+
+    // right - text
+    .wpb_raw_code.wpb_raw_html {
+      .wpb_wrapper {
+        a {
+          color: #47b1bd;
+        }
+        input[type='text'],
+        input[type='email'] {
+          border: solid 1px #e2e2e2;
+        }
+        input[type='submit'] {
+          background-color: #47b1bd;
+        }
+      }
+    }
+  }
+
+}
+
+// ------- VC --------
+.vc_row.widget {
+  .mailchimp-signup-form {
+    margin: 50px 0 35px;
+    .mc4wp-form-fields:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+  .mc4wp-form {
+    .row {
+      margin: 0;
+      .email-input {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+// ------- REFRESH --------
+
+
+article.widget.mailchimp-signup-form {
+  //display: none !important;
+
+  background-color: #3aaab7;
+  color: #fff;
+  margin: 50px 0 0;
+  padding: 50px 75px;
+  @include breakFlexXS() {
+    padding: 40px 25px;
+  }
+
+  .row {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  // .row {
+  //   max-width: 100%;
+  //   margin: 0;
+  //   @include breakFlexXS() {
+  //     width: 100%;
+  //     max-width: inherit;
+  //   }
+  //   @include breakFlexSM() {
+  //     width: 100%;
+  //     max-width: inherit;
+  //   }
+  //   @include breakFlexMD() {
+  //     width: 100%;
+  //     max-width: inherit;
+  //   }
+  //   @include breakFlexLG() {
+  //     width: 100%;
+  //     max-width: inherit;
+  //   }
+  // }
+
+  .image {
+    padding: 0;
+    img {
+      display: block;
+      width: 100px;
+    }
+  }
+
+  .text {
+    padding: 0 20px;
+    @include breakFlexXS() {
+      padding: 10px 0px;
+    }
+  }
+
+  .button-wrapper {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    @include breakFlexSMMax() {
+      margin-top: 20px;
+    }
+    input {
+      width: 100%;
+    }
+  }
+
+  // mailchimp msgs
+  .mc4wp-response p,
+  .mc4wp-response .mc4wp-alert p {
+    margin-left: 10px;
+  }
+
+}
+
+#mc-input-email {
+  border: solid 1px #e2e2e2;
+}
+
+#mc-submit {
+  background-color: #47b1bd;
+}

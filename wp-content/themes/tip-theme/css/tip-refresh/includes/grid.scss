@@ -1,0 +1,72 @@
+.row {
+  max-width: 1140px;
+  margin: auto;
+  @include breakFlexXS() {
+    width: 95%;
+    max-width: 600px;
+  }
+  @include breakFlexSM() {
+    width: 95%;
+    max-width: 750px;
+  }
+  @include breakFlexMD() {
+    width: 95%;
+    max-width: 900px;
+  }
+  @include breakFlexLG() {
+    width: 95%;
+    max-width: 1170px;
+  }
+}
+
+.row-tip,
+.vc_row {
+  width: 1140px;
+  max-width: 95%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @include breakXS() {
+    max-width: 95%;
+    width: 570px;
+  }
+  @media (max-width: 769px) and (min-width: 0) {
+    max-width: 95%;
+    width: 750px;
+  }
+  @media (min-width: 769px) {
+    max-width: 95%;
+    width: 900px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 95%;
+    width: 1170px;
+  }
+}
+
+.vc_row.full-bleed {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.row-wrapper {
+  padding: 20px 0 0;
+}
+
+.box.verticall-align-items {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.row.justfity-content-center {
+  justify-content: center;
+}
+
+.header-spacer {
+  height: 100px;
+  background-color: green;
+  @include breakXS() { height: 45px; }
+  @include breakSM() { height: 4px; }
+}

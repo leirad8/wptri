@@ -1,0 +1,50 @@
+@import '../../includes/media-queries.scss';
+
+article.page .event-row-wrapper {
+    border-top: solid 1px #eeeeee;
+    padding-top: 45px;
+    position: relative;
+
+    // make parent static, so the tag can be positioned at the bottom
+    .wpb_column.vc_column_container {
+      position: static;
+    }
+
+    p {
+      margin-bottom: 15px;
+      &.date,
+      &.location {
+        @include breakSMMax() {
+          float: left;
+          width: 50%;
+        }
+      }
+    }
+
+    a.footer-link {
+      color: #b5d453;
+      font-weight: 600;
+    }
+
+    div.tag.upcoming-event {
+      text-transform: uppercase;
+      width: auto;
+      padding: 12px 20px 6px;
+      display: inline-block;
+      font-size: 12px;
+      line-height: 12px;
+      position: absolute;
+      bottom: 60px;
+      @include breakSMMax() {
+        position: static;
+        margin-bottom: 20px;
+      }
+    }
+
+    .wpb_column:first-child {
+      p {
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+}

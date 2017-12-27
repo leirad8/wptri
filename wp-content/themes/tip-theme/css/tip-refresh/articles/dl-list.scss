@@ -1,0 +1,53 @@
+article.dl-list {
+  dl.list {
+    dt, dd {
+      float: left;
+      //border: solid red 1px;
+      margin: 0 0 20px;
+      padding: 0;
+      @include breakFlexXS() {
+        //border: solid 1px green;
+      }
+      @include breakFlexSM() {
+        //border: solid 1px blue;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      @include breakFlexMD() {
+        //border: solid 1px yellow;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    dt {
+      clear: both;
+      width: 35%;
+      @include breakFlexSM() {
+        width: 40%;
+      }
+      @include breakFlexMD() {
+        width: 35%;
+      }
+      @include  breakXS() {
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 0px;
+      }
+    }
+    dd {
+      width: auto;
+      width: 65%;
+      @include breakFlexSM() {
+        width: 60%;
+      }
+      @include  breakXS() {
+        width: 100%;
+      }
+    }
+  }
+
+  .button-wrapper {
+    margin: 50px auto 0;
+  }
+}

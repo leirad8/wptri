@@ -1,0 +1,25 @@
+.sub-menu a[href*="project-groups/"],
+.mega-sub-menu a[href*="project-groups/"] {
+    background: #e9e9e9 !important;
+}
+.sub-menu a[href*="project-groups/"]:hover,
+.mega-sub-menu a[href*="project-groups/"]:hover {
+    background: #4aa65f !important;
+}
+
+.sub-menu a[href$="core-and-management-projects/"],
+.sub-menu a[href$="backhaul-projects/"],
+.sub-menu a[href$="access-projects/"],
+.sub-menu a[href$="teac/"],
+.sub-menu a[href$="tip-community-lab-facebook/"],
+.sub-menu a[href$="tip-community-labs/"] {
+  background:#e9e9e9 !important;
+}
+.sub-menu a[href$="core-and-management-projects/"]:hover,
+.sub-menu a[href$="backhaul-projects/"]:hover,
+.sub-menu a[href$="access-projects/"]:hover,
+.sub-menu a[href$="teac/"]:hover,
+.sub-menu a[href$="tip-community-lab-facebook/"]:hover,
+.sub-menu a[href$="tip-community-labs/"]:hover {
+  background:#4aa65f !important;
+}

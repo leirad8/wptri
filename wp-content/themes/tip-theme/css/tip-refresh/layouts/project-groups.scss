@@ -1,0 +1,76 @@
+@import '../includes/swatch.scss';
+@import '../includes/media-queries.scss';
+
+.page-template-layout-project-groups #page {
+  padding: 25px 0 50px;
+
+  .vc_row {
+    max-width: 100% !important;
+    @include breakLG() {
+      width: 1000px !important;
+    }
+  }
+
+  .header-wrapper {
+
+    .co-chairs-wrapper { }
+
+    .social-wrapper {
+      .fb { }
+      .linkedin {
+        margin-right: 20px;
+        position: relative;
+        top: 4px;
+      }
+      // @include breakXS() {
+      //   float: right;
+      // }
+      // @include breakSM() {
+      //   float: right;
+      // }
+      // @include breakMD() {
+      //   float: right;
+      // }
+    }
+
+    @media (min-width: 1024px) {
+      .social-wrapper {
+        float: right;
+        .fb {
+          float: right;
+        }
+        .linkedin {
+          float: right;
+        }
+      }
+    }
+  }
+
+  a.addl-info-link {
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer !important;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .addl-info-links-wrapper {
+    margin-top: 50px;
+    a {
+      margin-right: 100px;
+      color: $lightBlue;
+      text-decoration: underline;
+      @include breakFlexSMMax() {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+      }
+    }
+    .button-wrapper.small-green {
+      @include breakFlexSMMax() {
+        width: 100%;
+      }
+    }
+  }
+}

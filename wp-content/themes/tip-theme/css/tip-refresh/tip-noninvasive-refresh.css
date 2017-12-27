@@ -1,0 +1,1302 @@
+/*
+* Matching TIP Theme
+*/
+/*
+* Matching Flexbox Grid
+*/
+.ans-fade-in {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  display: none; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: block; }
+  100% {
+    opacity: 1;
+    display: block; } }
+.ans-fade-out {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  display: none; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    display: block;
+    height: auto; }
+  100% {
+    opacity: 0;
+    display: none;
+    height: 0px; } }
+.refresh {
+  /* float */
+  /* Hides */
+  /* Text */
+  /* links/anchors */
+  /* Color/Background */
+  /* Images */
+  /* Maximize iframe keeping aepect ratio */
+  /* dev/qa */
+  /* alignment */
+  /* float */
+  /* spacing */
+  /* padding */
+  /* Promo Banner */
+  /* tags */ }
+  .refresh .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .refresh .xs-hide {
+      display: none !important; } }
+  @media (min-width: 48em) and (max-width: 64em) {
+    .refresh .sm-hide {
+      display: none !important; } }
+  @media (min-width: 64em) and (max-width: 75em) {
+    .refresh .md-hide {
+      display: none !important; } }
+  @media (min-width: 75em) {
+    .refresh .lg-hide {
+      display: none !important; } }
+  .refresh .hide {
+    display: none !important; }
+  .refresh .text-align-left {
+    text-align: left !important; }
+  .refresh .text-align-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  .refresh .content-align-center > div {
+    margin-left: auto;
+    margin-right: auto; }
+  .refresh .content-align-right > div {
+    margin-left: auto;
+    margin-right: 0; }
+  .refresh .justify-center {
+    justify-content: center; }
+  .refresh a.anchor::before {
+    content: "";
+    display: block;
+    height: 100px;
+    /* fixed header height*/
+    margin: 100px 0 0;
+    /* negative fixed header height */ }
+    @media (min-width: 1em) and (max-width: 48em) {
+      .refresh a.anchor::before {
+        content: "";
+        display: block;
+        height: 1px;
+        /* fixed header height*/
+        margin: 1px 0 0;
+        /* negative fixed header height */ } }
+  .refresh .bg-light-gray {
+    background-color: #fafafa; }
+  .refresh .color-blue {
+    color: #339cab; }
+  .refresh img.circle {
+    border-radius: 50% !important; }
+  .refresh .display-block img,
+  .refresh .display-block img img {
+    display: block; }
+  .refresh .gradient-green-blue, .refresh article.page .promo-banner-green, .refresh .widget.mailchimp-signup-form article.page .promo-banner-green, .widget.mailchimp-signup-form article.page .refresh .promo-banner-green, .refresh .widget#popup-alert-wrapper article.page .promo-banner-green, .widget#popup-alert-wrapper article.page .refresh .promo-banner-green {
+    background: #b5d453;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #b5d453 0%, #39abb8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5d453', endColorstr='#39abb8',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff; }
+  .refresh .images-inline img,
+  .refresh img.images-inline {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    height: 45px; }
+    .refresh .images-inline img.logo-small,
+    .refresh img.images-inline.logo-small {
+      height: 25px; }
+    .refresh .images-inline img.logo-large,
+    .refresh img.images-inline.logo-large {
+      height: 45px; }
+    .refresh .images-inline img.logo-xlarge,
+    .refresh img.images-inline.logo-xlarge {
+      height: 65px; }
+  .refresh .max-aspect-ratio-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 100%; }
+  .refresh .max-aspect-ratio-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; }
+  .refresh .qa,
+  .refresh .dev {
+    padding: 20px;
+    width: 100%;
+    color: #fff; }
+  .refresh .qa {
+    background-color: #87191D; }
+  .refresh .dev {
+    background-color: #008724; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .refresh .xs-center-text {
+      text-align: center; } }
+  @media (max-width: 64em) {
+    .refresh .sm-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  @media (max-width: 75em) {
+    .refresh .md-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  .refresh .center-text {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .refresh .float-left {
+    float: left; }
+  .refresh .float-right {
+    float: right; }
+  .refresh .lg-float-left {
+    float: left; }
+    @media (max-width: 75em) {
+      .refresh .lg-float-left {
+        float: none; } }
+  .refresh .lg-float-right {
+    float: right; }
+    @media (max-width: 75em) {
+      .refresh .lg-float-right {
+        float: none; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .refresh .xs-margin-left {
+      margin-left: 15px !important; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .refresh .xs-margin-top {
+      margin-top: 15px !important; } }
+  @media (max-width: 64em) {
+    .refresh .sm-margin-bottom {
+      margin-bottom: 15px !important; } }
+  @media (max-width: 64em) {
+    .refresh .sm-margin-top {
+      margin-top: 15px !important; } }
+  .refresh .sm-margin-right {
+    margin-right: 20px; }
+  .refresh .md-margin-top-lg {
+    margin-top: 80px !important; }
+  .refresh .lg-margin-top-lg {
+    margin-top: 120px !important; }
+  .refresh .no-padding {
+    padding: 0px; }
+  .refresh article.page .promo-banner-green {
+    color: #fff;
+    padding: 20px; }
+    .refresh article.page .promo-banner-green h2 .subheading {
+      font: 100 24px/28px "Montserrat-Light", Helvetica, sans-serif; }
+    .refresh article.page .promo-banner-green h2 a {
+      color: #fff;
+      font: 100 18px/22px "Montserrat-Light", Helvetica, sans-serif; }
+  .refresh .tag {
+    margin: 0 10px 0 0;
+    border-radius: 15px;
+    background-color: #7adae5;
+    color: #39abb8;
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 600; }
+  .refresh a.anchor:before {
+    height: 0px;
+    /* fixed header height*/
+    margin: 0px 0 0;
+    /* negative fixed header height */ }
+
+.widget.mailchimp-signup-form {
+  /* float */
+  /* Hides */
+  /* Text */
+  /* links/anchors */
+  /* Color/Background */
+  /* Images */
+  /* Maximize iframe keeping aepect ratio */
+  /* dev/qa */
+  /* alignment */
+  /* float */
+  /* spacing */
+  /* padding */
+  /* Promo Banner */
+  /* tags */
+  /* Headings */
+  /* Images */
+  /* Paragraphs */
+  /* Links */
+  /* Defintion List */
+  /* Lists */
+  /* Articles */
+  /* Tables */
+  /* Video */ }
+  .widget.mailchimp-signup-form .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget.mailchimp-signup-form .xs-hide {
+      display: none !important; } }
+  @media (min-width: 48em) and (max-width: 64em) {
+    .widget.mailchimp-signup-form .sm-hide {
+      display: none !important; } }
+  @media (min-width: 64em) and (max-width: 75em) {
+    .widget.mailchimp-signup-form .md-hide {
+      display: none !important; } }
+  @media (min-width: 75em) {
+    .widget.mailchimp-signup-form .lg-hide {
+      display: none !important; } }
+  .widget.mailchimp-signup-form .hide {
+    display: none !important; }
+  .widget.mailchimp-signup-form .text-align-left {
+    text-align: left !important; }
+  .widget.mailchimp-signup-form .text-align-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  .widget.mailchimp-signup-form .content-align-center > div {
+    margin-left: auto;
+    margin-right: auto; }
+  .widget.mailchimp-signup-form .content-align-right > div {
+    margin-left: auto;
+    margin-right: 0; }
+  .widget.mailchimp-signup-form .justify-center {
+    justify-content: center; }
+  .widget.mailchimp-signup-form a.anchor::before {
+    content: "";
+    display: block;
+    height: 100px;
+    /* fixed header height*/
+    margin: 100px 0 0;
+    /* negative fixed header height */ }
+    @media (min-width: 1em) and (max-width: 48em) {
+      .widget.mailchimp-signup-form a.anchor::before {
+        content: "";
+        display: block;
+        height: 1px;
+        /* fixed header height*/
+        margin: 1px 0 0;
+        /* negative fixed header height */ } }
+  .widget.mailchimp-signup-form .bg-light-gray {
+    background-color: #fafafa; }
+  .widget.mailchimp-signup-form .color-blue {
+    color: #339cab; }
+  .widget.mailchimp-signup-form img.circle {
+    border-radius: 50% !important; }
+  .widget.mailchimp-signup-form .display-block img,
+  .widget.mailchimp-signup-form .display-block img img {
+    display: block; }
+  .widget.mailchimp-signup-form .gradient-green-blue, .refresh article.page .widget.mailchimp-signup-form .promo-banner-green, .widget.mailchimp-signup-form article.page .promo-banner-green, .widget.mailchimp-signup-form .widget#popup-alert-wrapper article.page .promo-banner-green, .widget#popup-alert-wrapper article.page .widget.mailchimp-signup-form .promo-banner-green {
+    background: #b5d453;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #b5d453 0%, #39abb8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5d453', endColorstr='#39abb8',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff; }
+  .widget.mailchimp-signup-form .images-inline img,
+  .widget.mailchimp-signup-form img.images-inline {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    height: 45px; }
+    .widget.mailchimp-signup-form .images-inline img.logo-small,
+    .widget.mailchimp-signup-form img.images-inline.logo-small {
+      height: 25px; }
+    .widget.mailchimp-signup-form .images-inline img.logo-large,
+    .widget.mailchimp-signup-form img.images-inline.logo-large {
+      height: 45px; }
+    .widget.mailchimp-signup-form .images-inline img.logo-xlarge,
+    .widget.mailchimp-signup-form img.images-inline.logo-xlarge {
+      height: 65px; }
+  .widget.mailchimp-signup-form .max-aspect-ratio-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 100%; }
+  .widget.mailchimp-signup-form .max-aspect-ratio-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; }
+  .widget.mailchimp-signup-form .qa,
+  .widget.mailchimp-signup-form .dev {
+    padding: 20px;
+    width: 100%;
+    color: #fff; }
+  .widget.mailchimp-signup-form .qa {
+    background-color: #87191D; }
+  .widget.mailchimp-signup-form .dev {
+    background-color: #008724; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget.mailchimp-signup-form .xs-center-text {
+      text-align: center; } }
+  @media (max-width: 64em) {
+    .widget.mailchimp-signup-form .sm-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  @media (max-width: 75em) {
+    .widget.mailchimp-signup-form .md-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  .widget.mailchimp-signup-form .center-text {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .widget.mailchimp-signup-form .float-left {
+    float: left; }
+  .widget.mailchimp-signup-form .float-right {
+    float: right; }
+  .widget.mailchimp-signup-form .lg-float-left {
+    float: left; }
+    @media (max-width: 75em) {
+      .widget.mailchimp-signup-form .lg-float-left {
+        float: none; } }
+  .widget.mailchimp-signup-form .lg-float-right {
+    float: right; }
+    @media (max-width: 75em) {
+      .widget.mailchimp-signup-form .lg-float-right {
+        float: none; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget.mailchimp-signup-form .xs-margin-left {
+      margin-left: 15px !important; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget.mailchimp-signup-form .xs-margin-top {
+      margin-top: 15px !important; } }
+  @media (max-width: 64em) {
+    .widget.mailchimp-signup-form .sm-margin-bottom {
+      margin-bottom: 15px !important; } }
+  @media (max-width: 64em) {
+    .widget.mailchimp-signup-form .sm-margin-top {
+      margin-top: 15px !important; } }
+  .widget.mailchimp-signup-form .sm-margin-right {
+    margin-right: 20px; }
+  .widget.mailchimp-signup-form .md-margin-top-lg {
+    margin-top: 80px !important; }
+  .widget.mailchimp-signup-form .lg-margin-top-lg {
+    margin-top: 120px !important; }
+  .widget.mailchimp-signup-form .no-padding {
+    padding: 0px; }
+  .widget.mailchimp-signup-form article.page .promo-banner-green {
+    color: #fff;
+    padding: 20px; }
+    .widget.mailchimp-signup-form article.page .promo-banner-green h2 .subheading {
+      font: 100 24px/28px "Montserrat-Light", Helvetica, sans-serif; }
+    .widget.mailchimp-signup-form article.page .promo-banner-green h2 a {
+      color: #fff;
+      font: 100 18px/22px "Montserrat-Light", Helvetica, sans-serif; }
+  .widget.mailchimp-signup-form .tag {
+    margin: 0 10px 0 0;
+    border-radius: 15px;
+    background-color: #7adae5;
+    color: #39abb8;
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 600; }
+  .widget.mailchimp-signup-form .button-wrapper {
+    text-align: center; }
+    .widget.mailchimp-signup-form .button-wrapper a.button,
+    .widget.mailchimp-signup-form .button-wrapper a.button:active,
+    .widget.mailchimp-signup-form .button-wrapper a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper a.button:visited
+    button {
+      text-transform: uppercase;
+      display: block;
+      text-decoration: none; }
+    .widget.mailchimp-signup-form .button-wrapper p {
+      margin-top: 15px;
+      font: 20px/30px "Avenir-Book", Helvetica, sans-serif; }
+  .widget.mailchimp-signup-form .button-wrapper.big-green,
+  .widget.mailchimp-signup-form .button-wrapper.small-green {
+    max-width: 377px; }
+    .widget.mailchimp-signup-form .button-wrapper.big-green a.button,
+    .widget.mailchimp-signup-form .button-wrapper.big-green a.button:active,
+    .widget.mailchimp-signup-form .button-wrapper.big-green a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper.big-green a.button:visited,
+    .widget.mailchimp-signup-form .button-wrapper.big-green button,
+    .widget.mailchimp-signup-form .button-wrapper.big-green input[type='submit'],
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:active,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:visited,
+    .widget.mailchimp-signup-form .button-wrapper.small-green button,
+    .widget.mailchimp-signup-form .button-wrapper.small-green input[type='submit'] {
+      border: none;
+      background-color: #b5d453;
+      color: #fff !important;
+      padding: 12px 15px 12px;
+      font: 28px/34px "Avenir-Black", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer;
+      text-decoration: none  !important; }
+      @media (max-width: 64em) {
+        .widget.mailchimp-signup-form .button-wrapper.big-green a.button,
+        .widget.mailchimp-signup-form .button-wrapper.big-green a.button:active,
+        .widget.mailchimp-signup-form .button-wrapper.big-green a.button:hover,
+        .widget.mailchimp-signup-form .button-wrapper.big-green a.button:visited,
+        .widget.mailchimp-signup-form .button-wrapper.big-green button,
+        .widget.mailchimp-signup-form .button-wrapper.big-green input[type='submit'],
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:active,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:hover,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:visited,
+        .widget.mailchimp-signup-form .button-wrapper.small-green button,
+        .widget.mailchimp-signup-form .button-wrapper.small-green input[type='submit'] {
+          font: 22px/26px "Avenir-Black", Helvetica, sans-serif;
+          min-width: 10px;
+          width: 85%;
+          display: block;
+          margin: auto;
+          padding: 15px 10px; } }
+    .widget.mailchimp-signup-form .button-wrapper.big-green a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:hover {
+      background-color: #9FBA49; }
+  .widget.mailchimp-signup-form .button-wrapper.small-green {
+    max-width: none;
+    display: inline-block; }
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:active,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper.small-green a.button:visited,
+    .widget.mailchimp-signup-form .button-wrapper.small-green button,
+    .widget.mailchimp-signup-form .button-wrapper.small-green input[type='submit'] {
+      text-transform: none;
+      padding: 10px 60px;
+      font: 18px/24px "Avenir-Medium", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer; }
+      @media (max-width: 64em) {
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:active,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:hover,
+        .widget.mailchimp-signup-form .button-wrapper.small-green a.button:visited,
+        .widget.mailchimp-signup-form .button-wrapper.small-green button,
+        .widget.mailchimp-signup-form .button-wrapper.small-green input[type='submit'] {
+          padding: 15px 10px; } }
+  .widget.mailchimp-signup-form .button-wrapper.small-white-border {
+    max-width: none;
+    display: inline-block; }
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button,
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:active,
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:hover,
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:visited,
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border button,
+    .widget.mailchimp-signup-form .button-wrapper.small-white-border input[type='submit'] {
+      border: solid 2px #fff;
+      background-color: transparent;
+      text-transform: none;
+      padding: 20px 60px;
+      font: 18px/24px "Avenir-Medium", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer;
+      display: inline-block;
+      color: #fff; }
+      @media (max-width: 64em) {
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button,
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:active,
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:hover,
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border a.button:visited,
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border button,
+        .widget.mailchimp-signup-form .button-wrapper.small-white-border input[type='submit'] {
+          padding: 15px 10px; } }
+  .widget.mailchimp-signup-form input[type="radio"] {
+    height: 20px;
+    width: 20px; }
+  .widget.mailchimp-signup-form input[type="email"] {
+    padding: 25px 20px 24px;
+    color: #a2a2a2;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    width: 100%; }
+  .widget.mailchimp-signup-form input[type="text"] {
+    padding: 12px 15px 12px;
+    border: solid 1px #999999;
+    color: #000;
+    font-size: 16px; }
+  .widget.mailchimp-signup-form h1 {
+    font: 600 42px/40px "Montserrat-SemiBold", Helvetica, sans-serif;
+    margin-bottom: 30px;
+    display: block; }
+    @media (max-width: 64em) {
+      .widget.mailchimp-signup-form h1 {
+        font: 600 32px/35px "Montserrat-SemiBold", Helvetica, sans-serif;
+        margin-bottom: 15px; } }
+  .widget.mailchimp-signup-form h2 {
+    font: 400 32px/40px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    @media (max-width: 64em) {
+      .widget.mailchimp-signup-form h2 {
+        font: 400 26px/32px "Montserrat-Regular", Helvetica, sans-serif; } }
+    .widget.mailchimp-signup-form h2.light {
+      font-family: "Montserrat-Light", Helvetica, sans-serif;
+      font-weight: 100; }
+  .widget.mailchimp-signup-form h3 {
+    font: 100 24px/24px "Montserrat-Light", Helvetica, sans-serif;
+    margin: 0 0 15px; }
+  .widget.mailchimp-signup-form h4 {
+    font: 400 28px/40px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    @media (max-width: 64em) {
+      .widget.mailchimp-signup-form h4 {
+        font: 400 22px/26px "Montserrat-Regular", Helvetica, sans-serif; } }
+  .widget.mailchimp-signup-form h5 {
+    font: 400 20px/27px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    .widget.mailchimp-signup-form h5.avenir {
+      font: 600 18px/24px "Avenir-Black", Helvetica, sans-serif;
+      margin: 0 0 25px; }
+  .widget.mailchimp-signup-form h6 {
+    display: block;
+    color: #339cab;
+    width: 100%;
+    font: 600 16px/17px "Montserrat-SemiBold", Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #f2f2f2;
+    margin: 20px 0 15px; }
+  .widget.mailchimp-signup-form img {
+    border: none;
+    min-height: 20px;
+    min-width: 20px; }
+  .widget.mailchimp-signup-form P {
+    font: 400 20px/30px "Avenir-Book", Helvetica, sans-serif;
+    margin: 0 0 25px; }
+    .widget.mailchimp-signup-form P.small-font {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 10px; }
+  .widget.mailchimp-signup-form article.page a,
+  .widget.mailchimp-signup-form article.page a:active,
+  .widget.mailchimp-signup-form article.page a:hover,
+  .widget.mailchimp-signup-form article.page a:visited {
+    color: #3a9fab;
+    text-decoration: underline; }
+  .widget.mailchimp-signup-form a:hover {
+    text-decoration: none;
+    cursor: pointer; }
+  .widget.mailchimp-signup-form dl.list dt, .widget.mailchimp-signup-form dl.list dd {
+    float: left;
+    margin: 0;
+    padding: 0; }
+  .widget.mailchimp-signup-form dl.list dt {
+    clear: both;
+    width: 35%; }
+  .widget.mailchimp-signup-form dl.list dd {
+    width: 65%; }
+    .widget.mailchimp-signup-form dl.list dd ul li {
+      font-size: 13px; }
+  .widget.mailchimp-signup-form ul.contacts-list li {
+    margin-bottom: 20px; }
+    .widget.mailchimp-signup-form ul.contacts-list li strong {
+      margin-bottom: 5px;
+      display: block; }
+    @media (max-width: 64em) {
+      .widget.mailchimp-signup-form ul.contacts-list li {
+        float: left;
+        width: 45%;
+        margin: 0 2.5% 20px; } }
+  .widget.mailchimp-signup-form ul.bullets {
+    list-style: inherit; }
+    .widget.mailchimp-signup-form ul.bullets li {
+      display: list-item;
+      margin-left: 30px; }
+  .widget.mailchimp-signup-form article.page article {
+    margin-top: 60px; }
+    .widget.mailchimp-signup-form article.page article > h2,
+    .widget.mailchimp-signup-form article.page article h2.article-heading {
+      margin: 0 auto 25px;
+      /* Use live site for temp */
+      font-size: 1.938em !important;
+      line-height: 100%;
+      display: block;
+      margin-bottom: 30px; }
+  .widget.mailchimp-signup-form article.table div.row {
+    padding: 10px 5px; }
+    .widget.mailchimp-signup-form article.table div.row div.box {
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .widget.mailchimp-signup-form article.table div.row div.box .subtext {
+        display: block;
+        font-size: .8em;
+        width: 100%; }
+  .widget.mailchimp-signup-form article.table.highlite-rows .row {
+    border-bottom: solid 1px #C0C0C0; }
+  .widget.mailchimp-signup-form article.table.highlite-rows h2.row {
+    border-bottom: none !important; }
+  .widget.mailchimp-signup-form article.table div.table-header {
+    border-bottom: solid 2px #414141 !important; }
+    .widget.mailchimp-signup-form article.table div.table-header .box {
+      font-weight: 800;
+      text-align: center;
+      justify-content: flex-end; }
+  .widget.mailchimp-signup-form article.table .button-wrapper.big-green input[type='submit'] {
+    width: auto; }
+
+.widget#popup-alert-wrapper {
+  /* float */
+  /* Hides */
+  /* Text */
+  /* links/anchors */
+  /* Color/Background */
+  /* Images */
+  /* Maximize iframe keeping aepect ratio */
+  /* dev/qa */
+  /* alignment */
+  /* float */
+  /* spacing */
+  /* padding */
+  /* Promo Banner */
+  /* tags */
+  /* Headings */
+  /* Images */
+  /* Paragraphs */
+  /* Links */
+  /* Defintion List */
+  /* Lists */
+  /* Articles */
+  /* Tables */
+  /* Video */ }
+  .widget#popup-alert-wrapper .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget#popup-alert-wrapper .xs-hide {
+      display: none !important; } }
+  @media (min-width: 48em) and (max-width: 64em) {
+    .widget#popup-alert-wrapper .sm-hide {
+      display: none !important; } }
+  @media (min-width: 64em) and (max-width: 75em) {
+    .widget#popup-alert-wrapper .md-hide {
+      display: none !important; } }
+  @media (min-width: 75em) {
+    .widget#popup-alert-wrapper .lg-hide {
+      display: none !important; } }
+  .widget#popup-alert-wrapper .hide {
+    display: none !important; }
+  .widget#popup-alert-wrapper .text-align-left {
+    text-align: left !important; }
+  .widget#popup-alert-wrapper .text-align-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  .widget#popup-alert-wrapper .content-align-center > div {
+    margin-left: auto;
+    margin-right: auto; }
+  .widget#popup-alert-wrapper .content-align-right > div {
+    margin-left: auto;
+    margin-right: 0; }
+  .widget#popup-alert-wrapper .justify-center {
+    justify-content: center; }
+  .widget#popup-alert-wrapper a.anchor::before {
+    content: "";
+    display: block;
+    height: 100px;
+    /* fixed header height*/
+    margin: 100px 0 0;
+    /* negative fixed header height */ }
+    @media (min-width: 1em) and (max-width: 48em) {
+      .widget#popup-alert-wrapper a.anchor::before {
+        content: "";
+        display: block;
+        height: 1px;
+        /* fixed header height*/
+        margin: 1px 0 0;
+        /* negative fixed header height */ } }
+  .widget#popup-alert-wrapper .bg-light-gray {
+    background-color: #fafafa; }
+  .widget#popup-alert-wrapper .color-blue {
+    color: #339cab; }
+  .widget#popup-alert-wrapper img.circle {
+    border-radius: 50% !important; }
+  .widget#popup-alert-wrapper .display-block img,
+  .widget#popup-alert-wrapper .display-block img img {
+    display: block; }
+  .widget#popup-alert-wrapper .gradient-green-blue, .refresh article.page .widget#popup-alert-wrapper .promo-banner-green, .widget.mailchimp-signup-form article.page .widget#popup-alert-wrapper .promo-banner-green, .widget#popup-alert-wrapper article.page .promo-banner-green {
+    background: #b5d453;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #b5d453 0%, #39abb8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #b5d453 0%, #39abb8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5d453', endColorstr='#39abb8',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff; }
+  .widget#popup-alert-wrapper .images-inline img,
+  .widget#popup-alert-wrapper img.images-inline {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    height: 45px; }
+    .widget#popup-alert-wrapper .images-inline img.logo-small,
+    .widget#popup-alert-wrapper img.images-inline.logo-small {
+      height: 25px; }
+    .widget#popup-alert-wrapper .images-inline img.logo-large,
+    .widget#popup-alert-wrapper img.images-inline.logo-large {
+      height: 45px; }
+    .widget#popup-alert-wrapper .images-inline img.logo-xlarge,
+    .widget#popup-alert-wrapper img.images-inline.logo-xlarge {
+      height: 65px; }
+  .widget#popup-alert-wrapper .max-aspect-ratio-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 100%; }
+  .widget#popup-alert-wrapper .max-aspect-ratio-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; }
+  .widget#popup-alert-wrapper .qa,
+  .widget#popup-alert-wrapper .dev {
+    padding: 20px;
+    width: 100%;
+    color: #fff; }
+  .widget#popup-alert-wrapper .qa {
+    background-color: #87191D; }
+  .widget#popup-alert-wrapper .dev {
+    background-color: #008724; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget#popup-alert-wrapper .xs-center-text {
+      text-align: center; } }
+  @media (max-width: 64em) {
+    .widget#popup-alert-wrapper .sm-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  @media (max-width: 75em) {
+    .widget#popup-alert-wrapper .md-center-text {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  .widget#popup-alert-wrapper .center-text {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .widget#popup-alert-wrapper .float-left {
+    float: left; }
+  .widget#popup-alert-wrapper .float-right {
+    float: right; }
+  .widget#popup-alert-wrapper .lg-float-left {
+    float: left; }
+    @media (max-width: 75em) {
+      .widget#popup-alert-wrapper .lg-float-left {
+        float: none; } }
+  .widget#popup-alert-wrapper .lg-float-right {
+    float: right; }
+    @media (max-width: 75em) {
+      .widget#popup-alert-wrapper .lg-float-right {
+        float: none; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget#popup-alert-wrapper .xs-margin-left {
+      margin-left: 15px !important; } }
+  @media (min-width: 1em) and (max-width: 48em) {
+    .widget#popup-alert-wrapper .xs-margin-top {
+      margin-top: 15px !important; } }
+  @media (max-width: 64em) {
+    .widget#popup-alert-wrapper .sm-margin-bottom {
+      margin-bottom: 15px !important; } }
+  @media (max-width: 64em) {
+    .widget#popup-alert-wrapper .sm-margin-top {
+      margin-top: 15px !important; } }
+  .widget#popup-alert-wrapper .sm-margin-right {
+    margin-right: 20px; }
+  .widget#popup-alert-wrapper .md-margin-top-lg {
+    margin-top: 80px !important; }
+  .widget#popup-alert-wrapper .lg-margin-top-lg {
+    margin-top: 120px !important; }
+  .widget#popup-alert-wrapper .no-padding {
+    padding: 0px; }
+  .widget#popup-alert-wrapper article.page .promo-banner-green {
+    color: #fff;
+    padding: 20px; }
+    .widget#popup-alert-wrapper article.page .promo-banner-green h2 .subheading {
+      font: 100 24px/28px "Montserrat-Light", Helvetica, sans-serif; }
+    .widget#popup-alert-wrapper article.page .promo-banner-green h2 a {
+      color: #fff;
+      font: 100 18px/22px "Montserrat-Light", Helvetica, sans-serif; }
+  .widget#popup-alert-wrapper .tag {
+    margin: 0 10px 0 0;
+    border-radius: 15px;
+    background-color: #7adae5;
+    color: #39abb8;
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 600; }
+  .widget#popup-alert-wrapper .button-wrapper {
+    text-align: center; }
+    .widget#popup-alert-wrapper .button-wrapper a.button,
+    .widget#popup-alert-wrapper .button-wrapper a.button:active,
+    .widget#popup-alert-wrapper .button-wrapper a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper a.button:visited
+    button {
+      text-transform: uppercase;
+      display: block;
+      text-decoration: none; }
+    .widget#popup-alert-wrapper .button-wrapper p {
+      margin-top: 15px;
+      font: 20px/30px "Avenir-Book", Helvetica, sans-serif; }
+  .widget#popup-alert-wrapper .button-wrapper.big-green,
+  .widget#popup-alert-wrapper .button-wrapper.small-green {
+    max-width: 377px; }
+    .widget#popup-alert-wrapper .button-wrapper.big-green a.button,
+    .widget#popup-alert-wrapper .button-wrapper.big-green a.button:active,
+    .widget#popup-alert-wrapper .button-wrapper.big-green a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper.big-green a.button:visited,
+    .widget#popup-alert-wrapper .button-wrapper.big-green button,
+    .widget#popup-alert-wrapper .button-wrapper.big-green input[type='submit'],
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:active,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:visited,
+    .widget#popup-alert-wrapper .button-wrapper.small-green button,
+    .widget#popup-alert-wrapper .button-wrapper.small-green input[type='submit'] {
+      border: none;
+      background-color: #b5d453;
+      color: #fff !important;
+      padding: 12px 15px 12px;
+      font: 28px/34px "Avenir-Black", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer;
+      text-decoration: none  !important; }
+      @media (max-width: 64em) {
+        .widget#popup-alert-wrapper .button-wrapper.big-green a.button,
+        .widget#popup-alert-wrapper .button-wrapper.big-green a.button:active,
+        .widget#popup-alert-wrapper .button-wrapper.big-green a.button:hover,
+        .widget#popup-alert-wrapper .button-wrapper.big-green a.button:visited,
+        .widget#popup-alert-wrapper .button-wrapper.big-green button,
+        .widget#popup-alert-wrapper .button-wrapper.big-green input[type='submit'],
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:active,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:hover,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:visited,
+        .widget#popup-alert-wrapper .button-wrapper.small-green button,
+        .widget#popup-alert-wrapper .button-wrapper.small-green input[type='submit'] {
+          font: 22px/26px "Avenir-Black", Helvetica, sans-serif;
+          min-width: 10px;
+          width: 85%;
+          display: block;
+          margin: auto;
+          padding: 15px 10px; } }
+    .widget#popup-alert-wrapper .button-wrapper.big-green a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:hover {
+      background-color: #9FBA49; }
+  .widget#popup-alert-wrapper .button-wrapper.small-green {
+    max-width: none;
+    display: inline-block; }
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:active,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper.small-green a.button:visited,
+    .widget#popup-alert-wrapper .button-wrapper.small-green button,
+    .widget#popup-alert-wrapper .button-wrapper.small-green input[type='submit'] {
+      text-transform: none;
+      padding: 10px 60px;
+      font: 18px/24px "Avenir-Medium", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer; }
+      @media (max-width: 64em) {
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:active,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:hover,
+        .widget#popup-alert-wrapper .button-wrapper.small-green a.button:visited,
+        .widget#popup-alert-wrapper .button-wrapper.small-green button,
+        .widget#popup-alert-wrapper .button-wrapper.small-green input[type='submit'] {
+          padding: 15px 10px; } }
+  .widget#popup-alert-wrapper .button-wrapper.small-white-border {
+    max-width: none;
+    display: inline-block; }
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button,
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:active,
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:hover,
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:visited,
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border button,
+    .widget#popup-alert-wrapper .button-wrapper.small-white-border input[type='submit'] {
+      border: solid 2px #fff;
+      background-color: transparent;
+      text-transform: none;
+      padding: 20px 60px;
+      font: 18px/24px "Avenir-Medium", Helvetica, sans-serif;
+      border-radius: 100px;
+      cursor: pointer;
+      display: inline-block;
+      color: #fff; }
+      @media (max-width: 64em) {
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button,
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:active,
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:hover,
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border a.button:visited,
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border button,
+        .widget#popup-alert-wrapper .button-wrapper.small-white-border input[type='submit'] {
+          padding: 15px 10px; } }
+  .widget#popup-alert-wrapper input[type="radio"] {
+    height: 20px;
+    width: 20px; }
+  .widget#popup-alert-wrapper input[type="email"] {
+    padding: 25px 20px 24px;
+    color: #a2a2a2;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    width: 100%; }
+  .widget#popup-alert-wrapper input[type="text"] {
+    padding: 12px 15px 12px;
+    border: solid 1px #999999;
+    color: #000;
+    font-size: 16px; }
+  .widget#popup-alert-wrapper h1 {
+    font: 600 42px/40px "Montserrat-SemiBold", Helvetica, sans-serif;
+    margin-bottom: 30px;
+    display: block; }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper h1 {
+        font: 600 32px/35px "Montserrat-SemiBold", Helvetica, sans-serif;
+        margin-bottom: 15px; } }
+  .widget#popup-alert-wrapper h2 {
+    font: 400 32px/40px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper h2 {
+        font: 400 26px/32px "Montserrat-Regular", Helvetica, sans-serif; } }
+    .widget#popup-alert-wrapper h2.light {
+      font-family: "Montserrat-Light", Helvetica, sans-serif;
+      font-weight: 100; }
+  .widget#popup-alert-wrapper h3 {
+    font: 100 24px/24px "Montserrat-Light", Helvetica, sans-serif;
+    margin: 0 0 15px; }
+  .widget#popup-alert-wrapper h4 {
+    font: 400 28px/40px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper h4 {
+        font: 400 22px/26px "Montserrat-Regular", Helvetica, sans-serif; } }
+  .widget#popup-alert-wrapper h5 {
+    font: 400 20px/27px "Montserrat-Regular", Helvetica, sans-serif;
+    margin: 0 0 10px; }
+    .widget#popup-alert-wrapper h5.avenir {
+      font: 600 18px/24px "Avenir-Black", Helvetica, sans-serif;
+      margin: 0 0 25px; }
+  .widget#popup-alert-wrapper h6 {
+    display: block;
+    color: #339cab;
+    width: 100%;
+    font: 600 16px/17px "Montserrat-SemiBold", Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #f2f2f2;
+    margin: 20px 0 15px; }
+  .widget#popup-alert-wrapper img {
+    border: none;
+    min-height: 20px;
+    min-width: 20px; }
+  .widget#popup-alert-wrapper P {
+    font: 400 20px/30px "Avenir-Book", Helvetica, sans-serif;
+    margin: 0 0 25px; }
+    .widget#popup-alert-wrapper P.small-font {
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0 0 10px; }
+  .widget#popup-alert-wrapper article.page a,
+  .widget#popup-alert-wrapper article.page a:active,
+  .widget#popup-alert-wrapper article.page a:hover,
+  .widget#popup-alert-wrapper article.page a:visited {
+    color: #3a9fab;
+    text-decoration: underline; }
+  .widget#popup-alert-wrapper a:hover {
+    text-decoration: none;
+    cursor: pointer; }
+  .widget#popup-alert-wrapper dl.list dt, .widget#popup-alert-wrapper dl.list dd {
+    float: left;
+    margin: 0;
+    padding: 0; }
+  .widget#popup-alert-wrapper dl.list dt {
+    clear: both;
+    width: 35%; }
+  .widget#popup-alert-wrapper dl.list dd {
+    width: 65%; }
+    .widget#popup-alert-wrapper dl.list dd ul li {
+      font-size: 13px; }
+  .widget#popup-alert-wrapper ul.contacts-list li {
+    margin-bottom: 20px; }
+    .widget#popup-alert-wrapper ul.contacts-list li strong {
+      margin-bottom: 5px;
+      display: block; }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper ul.contacts-list li {
+        float: left;
+        width: 45%;
+        margin: 0 2.5% 20px; } }
+  .widget#popup-alert-wrapper ul.bullets {
+    list-style: inherit; }
+    .widget#popup-alert-wrapper ul.bullets li {
+      display: list-item;
+      margin-left: 30px; }
+  .widget#popup-alert-wrapper article.page article {
+    margin-top: 60px; }
+    .widget#popup-alert-wrapper article.page article > h2,
+    .widget#popup-alert-wrapper article.page article h2.article-heading {
+      margin: 0 auto 25px;
+      /* Use live site for temp */
+      font-size: 1.938em !important;
+      line-height: 100%;
+      display: block;
+      margin-bottom: 30px; }
+  .widget#popup-alert-wrapper article.table div.row {
+    padding: 10px 5px; }
+    .widget#popup-alert-wrapper article.table div.row div.box {
+      height: 100%;
+      display: flex;
+      flex-direction: column; }
+      .widget#popup-alert-wrapper article.table div.row div.box .subtext {
+        display: block;
+        font-size: .8em;
+        width: 100%; }
+  .widget#popup-alert-wrapper article.table.highlite-rows .row {
+    border-bottom: solid 1px #C0C0C0; }
+  .widget#popup-alert-wrapper article.table.highlite-rows h2.row {
+    border-bottom: none !important; }
+  .widget#popup-alert-wrapper article.table div.table-header {
+    border-bottom: solid 2px #414141 !important; }
+    .widget#popup-alert-wrapper article.table div.table-header .box {
+      font-weight: 800;
+      text-align: center;
+      justify-content: flex-end; }
+  .widget#popup-alert-wrapper article.table .button-wrapper.big-green input[type='submit'] {
+    width: auto; }
+
+.widget.mailchimp-signup-form {
+  background-color: #3aaab7;
+  color: #fff;
+  margin: 50px 0 0;
+  padding: 50px 75px; }
+  .widget.mailchimp-signup-form .left {
+    padding: 20px 30px 50px; }
+    .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left {
+      width: 30%;
+      float: left; }
+      @media (min-width: 1px) and (max-width: 622px) {
+        .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left {
+          margin-bottom: 20px;
+          float: none;
+          width: 100%; } }
+      @media (min-width: 623px) and (max-width: 768px) {
+        .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left {
+          float: none;
+          width: 100%; } }
+      @media (min-width: 1px) and (max-width: 622px) {
+        .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left .vc_figure {
+          display: block; } }
+      @media (min-width: 623px) and (max-width: 768px) {
+        .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left .vc_figure {
+          display: block; } }
+      .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left img {
+        width: 80%;
+        margin: 30px 10px 0 0; }
+        @media (min-width: 1px) and (max-width: 622px) {
+          .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left img {
+            margin: 0 auto 50px; } }
+        @media (min-width: 623px) and (max-width: 768px) {
+          .widget.mailchimp-signup-form .left .wpb_single_image.vc_align_left img {
+            margin: 0 auto 50px; } }
+    .widget.mailchimp-signup-form .left .wpb_raw_code.wpb_raw_html .wpb_wrapper {
+      width: 70%;
+      text-align: left;
+      float: left; }
+      @media (max-width: 610px) and (min-width: 0) {
+        .widget.mailchimp-signup-form .left .wpb_raw_code.wpb_raw_html .wpb_wrapper {
+          float: none;
+          width: 100%; } }
+      .widget.mailchimp-signup-form .left .wpb_raw_code.wpb_raw_html .wpb_wrapper a {
+        color: #fff;
+        text-decoration: underline; }
+  .widget.mailchimp-signup-form .right .wpb_wrapper {
+    text-align: left; }
+    .widget.mailchimp-signup-form .right .wpb_wrapper h2 {
+      margin-top: 5px; }
+      @media (max-width: 769px) {
+        .widget.mailchimp-signup-form .right .wpb_wrapper h2 {
+          margin-top: 0px; } }
+    .widget.mailchimp-signup-form .right .wpb_wrapper a {
+      color: #fff; }
+  .widget.mailchimp-signup-form .right .email-input {
+    width: 60%;
+    float: left;
+    max-width: 350px; }
+    @media (max-width: 769px) {
+      .widget.mailchimp-signup-form .right .email-input {
+        width: 90%;
+        float: none;
+        max-width: 90%; } }
+  .widget.mailchimp-signup-form .right .submit-btn {
+    width: 40%;
+    float: right;
+    text-align: right; }
+    @media (max-width: 769px) {
+      .widget.mailchimp-signup-form .right .submit-btn {
+        margin-top: 20px;
+        width: 90%;
+        float: none;
+        max-width: 90%; } }
+    .widget.mailchimp-signup-form .right .submit-btn .button-wrapper {
+      margin: 0 0 0 10px;
+      max-width: 150px; }
+      @media (max-width: 769px) {
+        .widget.mailchimp-signup-form .right .submit-btn .button-wrapper {
+          width: 100%;
+          max-width: 100%;
+          margin: 0; } }
+      .widget.mailchimp-signup-form .right .submit-btn .button-wrapper input[type='submit'] {
+        padding-left: 0;
+        padding-right: 0; }
+  .widget.mailchimp-signup-form .image,
+  .widget.mailchimp-signup-form img {
+    padding: 0;
+    display: block;
+    width: 100px; }
+  .widget.mailchimp-signup-form .text {
+    padding: 0 20px; }
+    @media (min-width: 1em) and (max-width: 48em) {
+      .widget.mailchimp-signup-form .text {
+        padding: 40px 20px; } }
+  .widget.mailchimp-signup-form .button-wrapper {
+    margin: 15px 0 0;
+    text-align: left;
+    width: 100%; }
+    .widget.mailchimp-signup-form .button-wrapper input {
+      width: 100%; }
+  .widget.mailchimp-signup-form .mc4wp-response p,
+  .widget.mailchimp-signup-form .mc4wp-response .mc4wp-alert p {
+    font-weight: 600;
+    padding-top: 15px; }
+  .widget.mailchimp-signup-form.neutral-theme {
+    background-color: white;
+    color: #414141; }
+    .widget.mailchimp-signup-form.neutral-theme .wpb_raw_code.wpb_raw_html .wpb_wrapper a {
+      color: #47b1bd; }
+    .widget.mailchimp-signup-form.neutral-theme .wpb_raw_code.wpb_raw_html .wpb_wrapper input[type='text'],
+    .widget.mailchimp-signup-form.neutral-theme .wpb_raw_code.wpb_raw_html .wpb_wrapper input[type='email'] {
+      border: solid 1px #e2e2e2; }
+    .widget.mailchimp-signup-form.neutral-theme .wpb_raw_code.wpb_raw_html .wpb_wrapper input[type='submit'] {
+      background-color: #47b1bd; }
+
+.vc_row.widget.mailchimp-signup-form {
+  margin: 50px 0 35px; }
+  .vc_row.widget.mailchimp-signup-form .mc4wp-form-fields:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+article.widget.mailchimp-signup-form {
+  background-color: #3aaab7;
+  color: #fff;
+  margin: 50px 0 0;
+  padding: 50px 75px; }
+  @media (min-width: 1em) and (max-width: 48em) {
+    article.widget.mailchimp-signup-form {
+      padding: 40px 25px; } }
+  article.widget.mailchimp-signup-form .row {
+    max-width: 100%;
+    margin: 0; }
+  article.widget.mailchimp-signup-form .image {
+    padding: 0; }
+    article.widget.mailchimp-signup-form .image img {
+      display: block;
+      width: 100px; }
+  article.widget.mailchimp-signup-form .text {
+    padding: 0 20px; }
+    @media (min-width: 1em) and (max-width: 48em) {
+      article.widget.mailchimp-signup-form .text {
+        padding: 10px 0px; } }
+  article.widget.mailchimp-signup-form .button-wrapper {
+    margin: 0;
+    text-align: left;
+    width: 100%; }
+    @media (max-width: 64em) {
+      article.widget.mailchimp-signup-form .button-wrapper {
+        margin-top: 20px; } }
+    article.widget.mailchimp-signup-form .button-wrapper input {
+      width: 100%; }
+  article.widget.mailchimp-signup-form .mc4wp-response p,
+  article.widget.mailchimp-signup-form .mc4wp-response .mc4wp-alert p {
+    margin-left: 10px; }
+
+.widget#popup-alert-wrapper {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  justify-content: center; }
+  .widget#popup-alert-wrapper #popup-alert {
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    border-radius: 15px;
+    padding: 10vh 5vw;
+    min-height: 40vh;
+    min-width: 50vw;
+    max-height: 90vh;
+    max-width: 95vw; }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper #popup-alert {
+        padding: 5vh 10vw; } }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper #popup-alert #popup-x-close {
+        font-size: 17px;
+        line-height: 23px; } }
+    .widget#popup-alert-wrapper #popup-alert #popup-alert-title {
+      color: #000; }
+      @media (max-width: 64em) {
+        .widget#popup-alert-wrapper #popup-alert #popup-alert-title {
+          font-size: 20px; } }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper #popup-alert .button-wrapper {
+        width: 100%; } }
+    @media (max-width: 64em) {
+      .widget#popup-alert-wrapper #popup-alert .button-wrapper button {
+        margin: 0;
+        width: 100%; } }
+
+/*# sourceMappingURL=tip-noninvasive-refresh.css.map */

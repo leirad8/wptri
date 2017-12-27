@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="$large-1140-Projects" transform="translate(-469.000000, -1211.000000)">
+            <g id="Open-Cellular" transform="translate(469.000000, 1211.000000)">
+                <g id="Group-3">
+                    <circle id="Oval-Copy" fill="#ECECEC" cx="24" cy="24" r="24"></circle>
+                    <g id="ic_phone" transform="translate(14.000000, 14.000000)" stroke-linecap="round" stroke="#7B7B7B" stroke-width="2" stroke-linejoin="round">
+                        <g id="phone" transform="translate(0.666667, 0.666667)">
+                            <path d="M0,0 C0,10.3093153 8.35735134,18.6666667 18.6666667,18.6666667 L18.6666667,18.6666667" id="Oval-2"></path>
+                            <path d="M0,5.33895349e-14 L7,-1.31796393e-08 L7,5.83333332 L1.35687311,7 C0.481849981,4.83832665 0,2.47543437 0,5.33895349e-14 Z" id="Combined-Shape"></path>
+                            <path d="M18.6666667,18.6666667 L18.6666667,11.6666667 L12.8333333,11.6666667 L11.6666667,17.3097936 C13.82834,18.1848167 16.1912323,18.6666667 18.6666667,18.6666667 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

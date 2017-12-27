@@ -1,0 +1,125 @@
+/*
+ * Hero
+ */
+
+.hero-wrapper,
+.vc_row.hero {
+  padding: 100px 0px 50px;
+  background: url("/wp-content/uploads/summit-hero-bg.png") 0 50% no-repeat;
+  background-size: cover !important;
+  background-position-y: 50%;
+  color: #fff;
+  position: relative;
+  @include breakFlexSMMax() {
+    padding: 50px 0px 50px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .button-wrapper {
+    margin-top: 170px;
+    @include breakFlexSMMax() {
+      margin: 50px auto 0px;
+    }
+    button {
+      padding: 17px 0px 17px;
+      font: 28px/34px $fontAvenirBlack;
+      border-radius: 100px;
+    }
+  }
+
+  img {
+    height: 350px;
+    width: 350px;
+    @include breakFlexSMMax() {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  &.small {
+    img {
+      display: block;
+      height: 235px;
+      width: 235px;
+      @include breakFlexSMMax() {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+}
+
+// TODO: clean this up
+.hero-wrapper,
+.vc_row.hero {
+  // Hero Block
+  h1 {
+    text-shadow: 0px 0px 21px #000;
+  }
+  h2 {
+    text-shadow: 0px 0px 15px #000;
+  }
+  &.child-bg {
+    background: none !important;
+    padding: 0px;
+    .hero-bg {
+      background: url("/wp-content/uploads/summit-hero-bg.png") 0 0 no-repeat !important;
+      background-size: cover !important;
+      min-height: 100px;//min-height: 250px;
+      max-height: 350px;//max-height: 500px;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 0;
+      @include breakFlexSMMax() {
+        max-height: 300px//max-height: 390px
+      }
+      @include breakXS() {
+        max-height: 100px;
+        min-height: 200px;
+      }
+      @include breakFlexMD() {
+        max-height: 300px;//max-height: 440px;
+      }
+    }
+  }
+  border: solid #fff 1px; //TODO fix this!
+  .hero-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 230px;
+    color: $darkGray;
+    margin: 250px auto 0px;//margin: 400px auto 0px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 10;
+    @include breakFlexXS() {
+      margin-top: 100px !important;
+      min-height: auto;
+      padding: 20px 0;
+    }
+    @include breakFlexSM() {
+      margin-top: 200px;//margin-top: 300px;
+      min-height: 150px;
+    }
+    @include breakFlexMD() {
+      margin-top: 200px;//margin-top: 350px;
+      min-height: 150px;
+    }
+    @include breakFlexLG() {
+
+    }
+  }
+}
+
+// VC overrides
+.vc_row.hero {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 300px;
+  border: none;
+}

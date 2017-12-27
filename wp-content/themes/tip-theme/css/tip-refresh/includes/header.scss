@@ -1,0 +1,26 @@
+.header-wrapper {
+  margin-bottom: 50px;
+
+  .co-chairs-wrapper {
+    float: none;
+    @media (min-width: 1024px) {
+      float: left;
+    }
+    .co-chair {
+      float: left;
+      margin-right: 30px;
+      font-size: 13px;
+      strong {
+        display: block;
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .social-wrapper {
+    .fb { }
+    .linkedin { }
+  }
+}

@@ -1,0 +1,132 @@
+
+.vc_row.no-spacing {
+  margin: 0px;
+  padding: 0px;
+  .vc_column-inner  {
+    padding: 0px;
+  }
+}
+.mobile-tab-nav {
+  display: none;
+  @include breakSMMax() {
+    display: block;
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+    //color: #4b4b4b;
+    //text-decoration: none;
+    //font: 600 18px/21px $fontMontserratRegular;
+  }
+}
+
+.vc_tta-container {
+
+  // mobile nav
+  .vc_tta-panel-heading {
+    display: none;
+  }
+
+  // desktop nav
+  .vc_tta-tabs-list {
+    .vc_tta-tab {
+      margin-right: 20px;
+      a {
+        border: none;
+        color: #4b4b4b;
+        text-decoration: none;
+        font: 600 18px/21px $fontMontserratRegular;
+        background-color: transparent;
+        padding: 0 0 10px 0;
+      }
+      &.vc_active {
+        border-bottom: solid 5px #489e94;
+      }
+    }
+  }
+
+  .vc_tta-panels-container {
+    .vc_tta-panels {
+      border: none !important;
+      border: top solid 1px #f0f0f0;
+      background-color: transparent !important;
+      .vc_tta-panel-body {
+        margin: 0;
+        padding: 0;
+        //.vc_row wpb_row vc_inner vc_row-fluid
+        .vc_row {
+          margin: 0;
+          padding: 0;
+          max-width: 100%;
+          .wpb_column {
+            &.full-width {
+              width: 100% !important;
+              max-width: 100% !important;
+            }
+            .vc_column-inner  {
+              padding: 0;
+            }
+          }
+        }
+        h2 {
+          text-align: left;
+        }
+        h3 {
+          font: 400 18px/21px $fontMontserratRegular;
+          color: #424242;
+          text-align: center;
+        }
+        em {
+          font: 400 14px/19px $fontAvenirBook;
+          color: #7b7b7b;
+        }
+      }
+
+      // specific tabs
+      .vc_tta-panel {
+        &.tab-photo-gallery {
+          a {
+            max-height: 320px;
+            overflow: hidden;
+            img {
+              max-height: 320px;
+              width: auto !important;
+              @include breakSMMax() {
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+      .tab-videos {
+        .vc_row {
+          .wpb_column  {
+            padding: 0 10px 0 10px;
+            //max-width: 260px;
+          }
+          .wpb_column:first-child {
+            padding-left: 0;
+            @include breakSMMax() { padding-left: 10px; }
+          }
+          .wpb_column:last-child {
+            padding-right: 0;
+            @include breakSMMax() { padding-right: 10px; }
+          }
+          iframe {
+            max-width: 100%;
+            @include breakSMMax() {
+              width: 100%;
+              max-width: 100%;
+              display: block;
+              height: 220px;
+              margin-bottom: 0 auto 15px;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+}

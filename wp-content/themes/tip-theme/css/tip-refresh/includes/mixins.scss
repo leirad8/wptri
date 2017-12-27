@@ -1,0 +1,235 @@
+/* float */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Hides */
+.xs-hide {
+  @include breakFlexXS() { display: none !important;  }
+}
+.sm-hide {
+  @include breakFlexSM() { display: none !important;  }
+}
+.md-hide {
+  @include breakFlexMD() { display: none !important;  }
+}
+.lg-hide {
+  @include breakFlexLG() { display: none !important;  }
+}
+
+.hide {
+  display: none !important;
+}
+
+/* Text */
+.text-align-left {
+  text-align: left !important;
+}
+.text-align-center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.content-align-center>div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-align-right>div {
+  margin-left: auto;
+  margin-right: 0;
+}
+.justify-center {
+  justify-content: center;
+}
+
+/* links/anchors */
+a.anchor::before {
+  content:"";
+  display:block;
+  height:100px; /* fixed header height*/
+  margin:100px 0 0; /* negative fixed header height */
+  @include breakFlexXS() {
+    content:"";
+    display:block;
+    height:1px; /* fixed header height*/
+    margin:1px 0 0; /* negative fixed header height */
+  }
+}
+
+/* Color/Background */
+.bg-light-gray {
+  background-color: $lightGray;
+}
+
+.color-blue {
+  color: $lightBlue;
+}
+
+/* Images */
+img.circle {
+  border-radius: 50% !important;
+}
+
+.display-block,
+.display-block img {
+  img {
+    display: block;
+  }
+}
+
+.gradient-green-blue {
+  background: #b5d453; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #b5d453 0%, #39abb8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #b5d453 0%,#39abb8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #b5d453 0%,#39abb8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5d453', endColorstr='#39abb8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #fff;
+}
+
+.images-inline img,
+img.images-inline {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  height: 45px;
+  &.logo-small {
+    height: 25px;
+  }
+  &.logo-large {
+    height: 45px;
+  }
+  &.logo-xlarge {
+    height: 65px;
+  }
+}
+
+/* Maximize iframe keeping aepect ratio */
+.max-aspect-ratio-iframe-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 100%;
+}
+.max-aspect-ratio-iframe-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  border: none;
+}
+
+/* dev/qa */
+.qa,
+.dev {
+  padding: 20px;
+  width: 100%;
+  color: #fff;
+}
+
+.qa {
+  background-color: #87191D;
+}
+
+.dev {
+  background-color: #008724;
+}
+
+/* alignment */
+.xs-center-text {
+  @include breakFlexXS() {
+    text-align: center;
+  }
+}
+.sm-center-text {
+  @include breakFlexSMMax() {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+.md-center-text {
+  @include breakFlexMDMax() {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+.center-text {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* float */
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.lg-float-left {
+  float: left;
+  @include breakFlexMDMax() { float: none; }
+}
+.lg-float-right {
+  float: right;
+  @include breakFlexMDMax() { float: none; }
+}
+
+/* spacing */
+.xs-margin-left {
+  @include breakFlexXS() { margin-left: 15px !important; }
+}
+.xs-margin-top {
+  @include breakFlexXS() { margin-top: 15px !important; }
+}
+.sm-margin-bottom {
+  @include breakFlexSMMax() { margin-bottom: 15px !important; }
+}
+.sm-margin-top {
+  @include breakFlexSMMax() { margin-top: 15px !important; }
+}
+.sm-margin-right {
+  margin-right: 20px;
+}
+.md-margin-top-lg {
+  margin-top: 80px !important;
+}
+.lg-margin-top-lg {
+  margin-top: 120px !important;
+}
+
+/* padding */
+.no-padding {
+  padding: 0px;
+}
+
+/* Promo Banner */
+article.page .promo-banner-green {
+  @extend .gradient-green-blue;
+  color: #fff;
+  padding: 20px;
+  h2 {
+    .subheading {
+      font: 100 24px/28px $fontMontserratLight;
+    }
+    a {
+      color: #fff;
+      font: 100 18px/22px $fontMontserratLight;
+    }
+  }
+}
+
+/* tags */
+.tag {
+  margin: 0 10px 0 0;
+  border-radius: 15px;
+  background-color: #7adae5;
+  color: #39abb8;
+  padding: 4px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}

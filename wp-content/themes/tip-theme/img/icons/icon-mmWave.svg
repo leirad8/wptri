@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>mmWave</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(0.000000, -151.000000)">
+            <g id="mmWave" transform="translate(0.000000, 151.000000)">
+                <circle id="Oval" fill="#ECECEC" fill-rule="nonzero" cx="24" cy="24" r="24"></circle>
+                <g id="Group-7" transform="translate(9.000000, 11.000000)" stroke="#7B7B7B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M28.5086229,13 L20,13" id="Shape"></path>
+                    <path d="M19.2041184,0.785585586 L22.420592,0.0772200772" id="Shape"></path>
+                    <path d="M23.1330759,3.29369369 L22.420592,0.0772200772" id="Shape"></path>
+                    <path d="M10.7778636,0.785585586 L7.56138996,0.0772200772" id="Shape"></path>
+                    <path d="M6.84890605,3.29369369 L7.56138996,0.0772200772" id="Shape"></path>
+                    <polyline id="Shape" points="17.4908623 17.1109395 17.6432432 17.3745174 17.6432432 17.3745174 17.6432432 17.3745174 22.4288288 25.6113256"></polyline>
+                    <path d="M12.4952381,17.1809524 L7.602574,25.6113256" id="Shape"></path>
+                    <path d="M10.7778636,24.9029601 L7.56138996,25.6113256" id="Shape"></path>
+                    <path d="M6.84890605,22.394852 L7.56138996,25.6113256" id="Shape"></path>
+                    <path d="M19.2370656,24.9029601 L22.4535393,25.6113256" id="Shape"></path>
+                    <path d="M23.1660232,22.394852 L22.4535393,25.6113256" id="Shape"></path>
+                    <path d="M2.47104247,15.1752896 L0.14002574,12.8442728" id="Shape"></path>
+                    <path d="M2.47104247,10.5132561 L0.14002574,12.8442728" id="Shape"></path>
+                    <path d="M17.437323,17.1232947 C15.5001074,18.2417466 13.053185,17.9195434 11.471531,16.3377375 C9.88987707,14.7559316 9.56790889,12.3089782 10.6865469,10.37187 C11.8051849,8.43476182 14.0854742,7.4905558 16.2460741,8.06982041 C18.4066739,8.64908502 19.9087952,10.607369 19.9083655,12.8442728" id="Shape"></path>
+                    <path d="M26.9096525,10.5132561 L29.2406692,12.8442728" id="Shape"></path>
+                    <path d="M26.9096525,15.1752896 L29.2406692,12.8442728" id="Shape"></path>
+                    <polyline id="Shape" points="12.4993565 8.58996139 11.2597169 6.46074646 7.55315315 0.0772200772"></polyline>
+                    <path d="M17.437323,8.58996139 L22.379408,0.0772200772" id="Shape"></path>
+                    <path d="M0.79021879,12.75 L9.85714286,12.75" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

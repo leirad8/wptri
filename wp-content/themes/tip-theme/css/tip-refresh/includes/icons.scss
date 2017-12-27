@@ -1,0 +1,38 @@
+.icon {
+  display: inline-block;
+  min-width: 10px;
+  min-height: 10px;
+}
+
+.icon.linkedin {
+  background: url("/wp-content/uploads/social-linkedin.png") 0 0 / contain no-repeat !important;
+  height: 26px;
+  width: 26px;
+  display: none;
+}
+
+.icon.bio {
+  background-color: #b5d453;
+  height: 21px;
+  border-radius: 12px;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center;
+  padding: 0px 11px 0px;
+  display: inline-block;
+  font-size: 14px;
+  width: auto !important;
+  margin: 0 10px;
+}
+
+.icon.bio:hover {
+  background-color: #93af3b;
+}
+
+.icon-arrow-right,
+.icon-arrow-left {
+  height: 30px;
+  width: 30px;
+}
+.icon-arrow-right { background: url("/wp-content/uploads/icon-arrow-right.svg") 0 0 / contain no-repeat !important; }
+.icon-arrow-left { background: url("/wp-content/uploads/icon-arrow-left.svg") 0 0 / contain no-repeat !important; }

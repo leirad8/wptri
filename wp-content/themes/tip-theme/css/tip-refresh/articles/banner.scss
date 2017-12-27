@@ -1,0 +1,46 @@
+article.banner {
+  background-color: #3aaab7;
+  color: #fff;
+  margin: 50px 0 0;
+
+  .row {
+    max-width: 100%;
+    margin: 0;
+    @include breakFlexXS() {
+      width: 100%;
+      max-width: inherit;
+    }
+    @include breakFlexSM() {
+      width: 100%;
+      max-width: inherit;
+    }
+    @include breakFlexMD() {
+      width: 100%;
+      max-width: inherit;
+    }
+    @include breakFlexLG() {
+      width: 100%;
+      max-width: inherit;
+    }
+  }
+
+  .image {
+    padding: 0;
+    img {
+      display: block;
+    }
+  }
+
+  .text {
+    padding: 0 20px;
+    @include breakFlexXS() {
+      padding: 40px 20px;
+    }
+  }
+
+  .button-wrapper {
+    margin: 15px 0 0;
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,38 @@
+article.bio {
+  display: block;
+  img {
+    max-width: 210px;
+    @include breakFlexXS() {
+      width: 80%;
+      margin: auto;
+      display: block;
+      float: none;
+    }
+  }
+  h2, strong, a {
+    @include breakFlexSMMax() {
+      text-align: center;
+      display: block;
+    }
+  }
+  strong {
+    display: block;
+    margin-bottom: 15px;
+  }
+  h2 {
+    @include breakFlexSMMax() {
+      margin: 20px auto 10px !important;
+    }
+  }
+  a {
+    @include breakFlexXS() {
+      margin: auto;
+    }
+    @include breakFlexSMMax() {
+      margin-bottom: 30px;
+    }
+  }
+  a.anchor {
+
+  }
+}

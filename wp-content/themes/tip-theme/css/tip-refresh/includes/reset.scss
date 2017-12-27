@@ -1,0 +1,236 @@
+/*
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+h1 {
+	// 18px via YUI Fonts CSS foundation
+	font-size:138.5%;
+}
+h2 {
+	// 16px via YUI Fonts CSS foundation
+	font-size:123.1%;
+}
+h3 {
+	// 14px via YUI Fonts CSS foundation
+	font-size:108%;
+}
+h1,h2,h3 {
+	//  top & bottom margin based on font size
+	margin:1em 0;
+}
+h1,h2,h3,h4,h5,h6,strong {
+	// bringing boldness back to headers and the strong element
+	font-weight:bold;
+}
+abbr,acronym {
+	// indicating to users that more info is available
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+em {
+	// bringing italics back to the em element
+	font-style:italic;
+}
+del {
+	text-decoration:line-through;
+}
+blockquote,ul,ol,dl {
+	// giving blockquotes and lists room to breath
+	margin:1em;
+}
+ol,ul,dl {
+	// bringing lists on to the page with breathing room
+	margin-left:2em;
+}
+ol li {
+	// giving OL's LIs generated numbers
+	list-style: decimal outside;
+}
+ul li {
+	// giving UL's LIs generated disc markers
+	list-style: disc outside;
+}
+dl dd {
+	// giving UL's LIs generated numbers
+	margin-left:1em;
+}
+th,td {
+	// borders and padding to make the table readable
+	border:1px solid #000;
+	padding:.5em;
+}
+th {
+	// distinguishing table headers from data cells
+	font-weight:bold;
+	text-align:center;
+}
+caption {
+	// coordinated margin to match cell's padding
+	margin-bottom:.5em;
+	// centered so it doesn't blend in to other content
+	text-align:center;
+}
+p,fieldset,table,pre {
+	// so things don't run into each other
+	margin-bottom:1em;
+}
+// setting a consistent width, 160px; control of type=file still not possible
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+*/
+/*
+#page {
+	.component--page--main-content--body {
+		max-width: 1170px;
+		margin: auto;
+		float: none;
+
+		div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed,
+		figure, figcaption, hgroup,
+		output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: inherit;
+			padding: inherit;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			clear: both;
+			float: none;
+			width: 100%;
+		}
+		article, aside, details, figcaption, figure,
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			margin-left: 1em;
+			margin-bottom: 1em;
+			li {
+				display: list-item;
+				//margin: inherit;
+				margin-bottom: .5em;
+			}
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		p {
+			margin: inherit;
+			margin-bottom: 15px;
+		}
+		a {
+			text-decoration: underline;
+		}
+		img {
+			width: auto;
+		}
+	}
+}
+*/
+.post-template-default #page,
+.page-template-layout-project-groups #page,
+.template-layout-project-groups #page,
+.page-template-layout-project-groups.page-id-3313 #page,
+.single-post #page,
+#page {
+
+	ol, ul {
+		margin-left: 1em !important;
+		margin-bottom: 1em;
+		float: none;
+		width: 100%;
+		li {
+			display: list-item;
+			//margin: inherit;
+			margin-bottom: .5em;
+		}
+	}
+
+	.vc_column_container>.vc_column-inner {
+		// padding-left: 0px;
+		// padding-right: 0px;
+	}
+
+	@media (max-width: 769px) and (min-width: 0) {
+		.component--article--main-content,
+		.component--page--main-content--body .vc_row {
+			margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+			width: 750px;
+			max-width: 95%;
+		}
+	}
+	@media (min-width: 769px) {
+		.component--article--main-content,
+		.component--page--main-content--body .vc_row {
+			margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+			width: 900px;
+			max-width: 95%;
+		}
+	}
+	@media (min-width: 1024px) {
+		.component--article--main-content,
+		.component--page--main-content--body .vc_row {
+			margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+			width: 1170px;
+		}
+	}
+
+	// h6 {
+	// 	font-size: 100%;
+	// 	font: inherit;
+	// }
+
+}
+
+
+// VC Overrides
+
+.vc_row {
+	margin: inherit;
+	padding: inherit;
+	// border: 0;
+	// font-size: 100%;
+	// font: inherit;
+	// vertical-align: baseline;
+	// clear: both;
+	// float: none;
+	// width: 100%;
+}
