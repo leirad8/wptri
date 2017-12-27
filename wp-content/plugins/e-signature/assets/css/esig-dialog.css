@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2016, 5:42:25 PM
+    Author     : Rupom
+*/
+
+#TB_closeWindowButton > span.screen-reader-text { 
+      display:none !important; 
+      
+}
+
+#TB_closeWindowButton:focus .tb-close-icon {
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+}
