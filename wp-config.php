@@ -93,10 +93,21 @@ define('WP_DEBUG', false);
 /* That's all, stop editing! Happy blogging. */
 
 //dynamically change url per environment
-define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
-define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+
+if (strpos($_SERVER['HTTP_HOST'],'localhost') !== false) { // local development
+	define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+	define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+}
+elseif  ((strpos(getenv('WP_ENV'),'stage') !== false) ||  (strpos(getenv('WP_ENV'),'prod' )!== false )){
+	define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+	define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+} else {
+  die('WP_ENV not set');
+}
+
 define('WP_CONTENT_URL', '/wp-content');
 define('DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST']);
+
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
